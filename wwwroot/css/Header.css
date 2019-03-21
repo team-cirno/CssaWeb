@@ -1,0 +1,62 @@
+.inner-header {
+    display: block;
+    background-color: #303030;
+    float:
+}
+
+header {
+    z-index: 5;
+}
+
+.navbar-nav a {
+    display: table;
+    float:none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.navbar li {
+    float:left;
+}
+
+.tag a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.tag a:hover {
+    background-color: #111111;
+}
+
+
+.navbar {
+    margin:  0% 10%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.nav{
+    display:inline;
+}
+
+.Title {
+    width: 50%;
+}
+
+.title {
+    color: #f1f1f1
+}
+
+.title-logo {
+    width: 70px;
+    height: 70px;
+}

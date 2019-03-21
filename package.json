@@ -1,0 +1,14 @@
+{
+  "name": "cssa",
+  "version": "1.0.0",
+  "description": "webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FANG",
+  "license": "ISC",
+  "dependencies": {
+    "in-view": "^0.6.1"
+  }
+}

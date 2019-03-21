@@ -1,0 +1,64 @@
+#nav_C {
+    background-attachment: scroll;
+    background-color: rgb(34, 34, 34);
+
+    color: rgb(204, 204, 204);
+
+    /* Box */
+    height: 100%;
+    width: 200px;
+
+    /* Positioning */
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 1056px;
+    left: 0px;
+    float: none;
+    display: block;
+    z-index: 1000;
+}
+
+.logo {
+    color: #FFFFFF;
+    outline-style: none;
+    width: 200px;
+    height: 100%;
+}
+
+.logo:hover{
+    background-color: #000000;
+}
+
+.nav_logo {
+    height: 100px;
+    width: 100px;
+
+}
+
+.nav_bar {
+    list-style: none;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+.nav_tab {
+    height: 26px;
+    width: 140px;
+    padding: 15px 30px 15px 30px;
+    min-height: 16px;
+    display: block;
+    transition: 0.3s;
+    color: #efefef
+}
+
+.nav_tab:hover {
+    height: 26px;
+    width: 160px;
+    padding: 15px 00px 15px 40px;
+    left: 20px;
+    min-height: 16px;
+    display: block;
+    background-color: #000000;
+    color: #ffffff;
+}

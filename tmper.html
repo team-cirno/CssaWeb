@@ -1,0 +1,467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>
+        PSU CSSA | where all your dreams comes true...
+    </title>
+    <meta name="description" content="This is Penn State CSSA">
+    <meta name="keywords" content=" ">
+    <meta name="robots" content="follow,index">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" sizes="16x16" href="./Reds/Image/Icon/Icon-16.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="Reds/Image/Icon/Icon-60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="Reds/Image/Icon/Icon-72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="Reds/Image/Icon/Icon-76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="Reds/Image/Icon/Icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="Reds/Image/Icon/Icon-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Reds/Image/Icon/Icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="Reds/Image/Icon/Icon-152.png">
+    <link href="CSS/Default.css" rel="stylesheet">
+    <link href="CSS/nav.css" rel="stylesheet">
+    <link href="CSS/TmpMain.css" rel="stylesheet">
+    <script src="JS/jquery-3.3.1.min.js"></script>
+    <script src="JS/in-view.min.js"></script>
+    <script src="JS/background_anime.js"></script>
+
+</head>
+
+<body>
+
+    <div id="my-video">
+        <video autoplay muted loop class="video-js">
+            <source src="Reds/Video/AMV%20Sayaka%20Shionoya%20-%20%E5%A1%A9%E3%83%8E%E8%B0%B7%E6%97%A9%E8%80%B6%E9%A6%99%20-%20Calling%20Out.mp4" type="video/mp4" />
+            <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+        </video>
+
+    </div>
+    <div id="splashscreen">
+        <img class="enter_link" src="Reds/GIF/CSSA-LOGO.gif">
+    </div>
+
+    <script>
+        $(".enter_link").click(function() {
+            $(this).parent("#splashscreen").fadeOut(500);
+            $("html").css({
+                overflow: "auto"
+            });
+        });
+    </script>
+    <!--#backgrount script -->
+
+    <!--<div id="background" class="background"></div>-->
+
+    <script>
+        var $target = $(".background");
+        inView(".section").on("enter", function(el) {
+            var color = $(el).attr("data-background-color");
+            $target.css("background-color", color);
+        });
+    </script>
+
+    <div id="main_wrap">
+
+        <div class="ovrtlay">
+
+        </div>
+        <header>
+            <div id="nav_C">
+                <header class="container-fluid">
+                    <a class="logo" href="tmper.html" style="text-decoration:none">
+                        <center>
+                            <img src="Reds/Image/Icon/Icon-trans.png" class="nav_logo" alt="" />
+                            <center>
+
+                                Penn State Chinese Student and Scholars Association
+                            </center>
+                        </center>
+                    </a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav_bar text15">
+                            <li><a class="nav_tab" href="#about">关于我们</a></li>
+                            <li><a class="nav_tab" href="#services">服务PSU</a></li>
+                            <li><a class="nav_tab" href="#activity">活动与信息</a></li>
+                            <li><a class="nav_tab" href="#resources">资源</a></li>
+                            <li><a class="nav_tab" href="#story">我们的故事</a></li>
+                            <li><a class="nav_tab" href="#contact">联系我们</a></li>
+                            <li><a class="nav_tab" href="https://bbs.psucssa.com/" target="_blank">CSSA论坛</a></li>
+                        </ul>
+                    </div>
+                </header>
+            </div>
+        </header>
+
+        <div id="main_conter">
+
+            <div id="main">
+                <div id="top-tab">
+                    <div class="container">
+                        <h1 class="title"><a href="#"><span>C</span>SSA</a></h1>
+                        <h2 class="tagline hidden-xs text20">宾州州立大学<span>中国学生学者联合会</span><br />Penn State University <span>Chinese Students</span> and <span>Scholars Association</span></h2>
+                    </div>
+                </div>
+
+                <img src="Reds/Image/picnic16.png" width="100%" height="100%" class="" alt="" onclick="showvideo()" />
+                <script>
+                    function showvideo() {
+                        document.getElementById("my-video").style.display = "block";
+                        document.getElementById("my-video").style.visibility = "visible";
+                    }
+                </script>
+
+
+
+                <section id="about" class="section-page">
+                    <div class="wrap-about">
+
+                        <h3 class="text20">We Are CSSA</h3>
+                        <p class="text15">
+                            宾夕法尼亚州立大学中国学生学者联合会（Penn State Chinese Student and Scholars Association, CSSA），是宾夕法尼亚州立大学中国留学生和学者的联合组织， Penn State CSSA是Penn State University-UP所在城市State College最大的华人团体组织，也是在PSU唯一经中国领事馆认证的组织。
+                        </p>
+                    </div>
+                </section>
+
+                <div class="empty" data></div>
+
+
+                <section id="services">
+                    <div class="wrap-about">
+
+                        <h3 class="text20">服务PSU</h3>
+                        <br>
+
+                        <ul class="col-sm-12">
+                            <li class="about col-sm-4">
+                                <h4 class="text-center text-uppercase text17"><i class="fa fa-suitcase"></i>新生接机服务</h4>
+
+                                <p class="text15">
+                                    亲爱的学弟学妹们欢迎各位来到美国，并选择了宾州州立大学作为美国之旅的新起点。 人生地不熟没关系，美丽学姐和帅气学长来SCE机场接我们，安全送到学校临时宿舍或指定地点。 </p>
+                                <p>今年新增服务项目，帮助大家找寻飞友，报名可选参加，并选择交友偏好。</p>
+
+                            </li>
+                            <br>
+                            <li class="about col-sm-4">
+                                <h4 class="text-center text-uppercase text17"><i class="fa fa-users"></i> 新生见面会</h4>
+
+                                <p class="text15">
+                                    CSSA每年暑期都会在各大城市举办新生见面会，每个举办城市都会有学姐学长作为当地负责人召开新生见面会，讲解与psu相关学习生活的方方面面，并发放实体新生手册，进行现场答疑。2016年CSSA在中国大陆举办新生见面会19场，涵盖人数千余人。今年，我们又整装待发以更全新的面貌迎接新生答疑解惑！欢迎各位同学和家长参加！
+                                </p>
+                            </li>
+                            <br>
+                            <li class="about col-sm-4">
+                                <h4 class="text-center text-uppercase text17"><i class="fa fa-book"></i> 新生手册</h4>
+
+                                <p class="text15">
+                                    新生手册是PSUCSSA精心打造的PSU生活学习指南，手册涵盖了：赴美前注意事项，在美生活与学习，校园资源介绍，安全事项等留学在PSU的方方面面。2017新生手册筹备组正在紧锣密鼓地准备地详尽精准的信息，不久就会与大家在新生见面会上相见。
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="empty"></div>
+
+                <section id="activity">
+                    <div class="wrap-about">
+
+                        <h3 class="text20">活动与信息</h3>
+                        <br>
+                        <ul id="news_rig" class="og-grid">
+                            <li class="unit_C">
+
+                                <div class="news_unit">
+                                    <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NjYxMg==&mid=2652217576&idx=1&sn=49b4d32147961fc57bb1724bbb2345eb&chksm=bd1f0f838a68869532d9296d59df92c3c6d3fa959e82c70f0e56af636a73751fc9d4e01d0243#rd">
+                                        <div class="news_BG_C">
+                                            <img class="news_BG" src="Reds/Image/news/bzxt3.png" alt="img03" />
+                                        </div>
+                                        <div class="news_foot">
+                                            <p class="text10">
+                                                校内的住宿区主要分为north，south，east，west和pollock，不同的住宿区有不同的特色；详细信息可以参考学校官方的宿舍介绍网址，包含各主要宿舍区的内部房型，内部照片以及家具规格.
+                                            </p>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </li>
+                            <li class="unit_C">
+                                <div class="news_unit">
+                                    <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NjYxMg==&mid=2652217576&idx=1&sn=49b4d32147961fc57bb1724bbb2345eb&chksm=bd1f0f838a68869532d9296d59df92c3c6d3fa959e82c70f0e56af636a73751fc9d4e01d0243#rd">
+                                        <div class="news_BG_C">
+                                            <img class="news_BG" src="Reds/Image/news/bzxt3.png" alt="img03" />
+                                        </div>
+                                        <div class="news_foot">
+                                            <p class="text10">
+                                                校内的住宿区主要分为north，south，east，west和pollock，不同的住宿区有不同的特色；详细信息可以参考学校官方的宿舍介绍网址，包含各主要宿舍区的内部房型，内部照片以及家具规格.
+                                            </p>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </li>
+                            <li class="unit_C">
+                                <div class="news_unit">
+                                    <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NjYxMg==&mid=2652217576&idx=1&sn=49b4d32147961fc57bb1724bbb2345eb&chksm=bd1f0f838a68869532d9296d59df92c3c6d3fa959e82c70f0e56af636a73751fc9d4e01d0243#rd">
+                                        <div class="news_BG_C">
+                                            <img class="news_BG" src="Reds/Image/news/bzxt3.png" alt="img03" />
+                                        </div>
+                                        <div class="news_foot">
+                                            <p class="text10">
+                                                校内的住宿区主要分为north，south，east，west和pollock，不同的住宿区有不同的特色；详细信息可以参考学校官方的宿舍介绍网址，包含各主要宿舍区的内部房型，内部照片以及家具规格.
+                                            </p>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </li>
+                            <li class="unit_C">
+                                <div class="news_unit">
+                                    <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NjYxMg==&mid=2652217576&idx=1&sn=49b4d32147961fc57bb1724bbb2345eb&chksm=bd1f0f838a68869532d9296d59df92c3c6d3fa959e82c70f0e56af636a73751fc9d4e01d0243#rd">
+                                        <div class="news_BG_C">
+                                            <img class="news_BG" src="Reds/Image/news/bzxt3.png" alt="img03" />
+                                        </div>
+                                        <div class="news_foot">
+                                            <p class="text10">
+                                                校内的住宿区主要分为north，south，east，west和pollock，不同的住宿区有不同的特色；详细信息可以参考学校官方的宿舍介绍网址，包含各主要宿舍区的内部房型，内部照片以及家具规格.
+                                            </p>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </li>
+                            <li class="unit_C">
+                                <div class="news_unit">
+                                    <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NjYxMg==&mid=2652217576&idx=1&sn=49b4d32147961fc57bb1724bbb2345eb&chksm=bd1f0f838a68869532d9296d59df92c3c6d3fa959e82c70f0e56af636a73751fc9d4e01d0243#rd">
+                                        <div class="news_BG_C">
+                                            <img class="news_BG" src="Reds/Image/news/bzxt3.png" alt="img03" />
+                                        </div>
+                                        <div class="news_foot">
+                                            <p class="text10">
+                                                校内的住宿区主要分为north，south，east，west和pollock，不同的住宿区有不同的特色；详细信息可以参考学校官方的宿舍介绍网址，包含各主要宿舍区的内部房型，内部照片以及家具规格.
+                                            </p>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </li>
+                            <li class="unit_C">
+                                <div class="news_unit">
+                                    <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NjYxMg==&mid=2652217576&idx=1&sn=49b4d32147961fc57bb1724bbb2345eb&chksm=bd1f0f838a68869532d9296d59df92c3c6d3fa959e82c70f0e56af636a73751fc9d4e01d0243#rd">
+                                        <div class="news_BG_C">
+                                            <img class="news_BG" src="Reds/Image/news/bzxt3.png" alt="img03" />
+                                        </div>
+                                        <div class="news_foot">
+                                            <p class="text10">
+                                                校内的住宿区主要分为north，south，east，west和pollock，不同的住宿区有不同的特色；详细信息可以参考学校官方的宿舍介绍网址，包含各主要宿舍区的内部房型，内部照片以及家具规格.
+                                            </p>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </li>
+                            <li class="unit_C">
+                                <div class="news_unit">
+                                    <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NjYxMg==&mid=2652217576&idx=1&sn=49b4d32147961fc57bb1724bbb2345eb&chksm=bd1f0f838a68869532d9296d59df92c3c6d3fa959e82c70f0e56af636a73751fc9d4e01d0243#rd">
+                                        <div class="news_BG_C">
+                                            <img class="news_BG" src="Reds/Image/news/bzxt3.png" alt="img03" />
+                                        </div>
+                                        <div class="news_foot">
+                                            <p class="text10">
+                                                校内的住宿区主要分为north，south，east，west和pollock，不同的住宿区有不同的特色；详细信息可以参考学校官方的宿舍介绍网址，包含各主要宿舍区的内部房型，内部照片以及家具规格.
+                                            </p>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </li>
+                            <li class="unit_C">
+                                <div class="news_unit">
+                                    <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTA3NjYxMg==&mid=2652217576&idx=1&sn=49b4d32147961fc57bb1724bbb2345eb&chksm=bd1f0f838a68869532d9296d59df92c3c6d3fa959e82c70f0e56af636a73751fc9d4e01d0243#rd">
+                                        <div class="news_BG_C">
+                                            <img class="news_BG" src="Reds/Image/news/bzxt3.png" alt="img03" />
+                                        </div>
+                                        <div class="news_foot">
+                                            <p class="text10">
+                                                校内的住宿区主要分为north，south，east，west和pollock，不同的住宿区有不同的特色；详细信息可以参考学校官方的宿舍介绍网址，包含各主要宿舍区的内部房型，内部照片以及家具规格.
+                                            </p>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </section>
+                <div class="empty"></div>
+
+                <section id="resources">
+                    <div class="wrap-about">
+                        <div class="container">
+                            <div>
+                                <h3 class="text-center">Resources<br />资源</h3>
+                                <div class="col-sm-12">
+                                    <p class="text-center col-sm-12">
+                                        PSU 校园在线资源中转站
+                                    </p>
+                                    <div class="about col-sm-3">
+                                        <h5 class="text-center"><a href="https://istart.gp.psu.edu/istart/controllers/start/start.cfm" target="_blank"><i class="fa fa-file-text-o" aria-hidden="true"></i> iStart 国际学生信息管理系统</a></h5>
+                                    </div>
+                                    <div class="about col-sm-3">
+                                        <h5 class="text-center"><a href="https://lmstools.ais.psu.edu/login/ldapfps.html" target="_blank"><i class="fa fa-book" aria-hidden="true"></i> Canvas 课程资源管理</a></h5>
+                                    </div>
+                                    <div class="about col-sm-3">
+                                        <h5 class="text-center"><a href="http://launch.lionpath.psu.edu/" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>LionPath 课程注册学生信息管理系统</a></h5>
+                                    </div>
+                                    <div class="about col-sm-3">
+                                        <h5 class="text-center"><a href="https://libraries.psu.edu/" target="_blank"><i class="fa fa-graduation-cap" aria-hidden="true"></i> 图书馆</a></h5>
+                                    </div>
+                                    <div class="about col-sm-3">
+                                        <h5 class="text-center"><a href="https://reservations.psu.edu/virtualems/" target="_blank"><i class="fa fa-graduation-cap" aria-hidden="true"></i> StudyRoom 预约系统</a></h5>
+                                    </div>
+                                    <div class="about col-sm-3">
+                                        <h5 class="text-center"><a href="http://transportation.psu.edu/students" target="_blank"><i class="fa fa-car" aria-hidden="true"></i> 校园Parking申请及信息</a></h5>
+                                    </div>
+                                    <div class="about col-sm-3">
+                                        <h5 class="text-center"><a href="http://housing.psu.edu/" target="_blank"><i class="fa fa-home" aria-hidden="true"></i> 校园住宿申请及信息</a></h5>
+                                    </div>
+                                    <div class="about col-sm-3">
+                                        <h5 class="text-center"><a href="http://studentaffairs.psu.edu/health/" target="_blank"><i class="fa fa-hospital-o" aria-hidden="true"></i> 校园医疗信息及预约系统</a></h5>
+                                    </div>
+                                </div>
+                                <p class="text-center col-sm-12">
+                                    生活信息资源链接
+                                </p>
+                                <div class="about col-sm-3">
+                                    <h5 class="text-center"><a href="http://www.events.psu.edu/cgi-bin/cal/webevent.cgi?cmd=opencal&cal=cal299&" target="_blank"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 今日校园活动信息</a></h5>
+                                </div>
+                                <div class="about col-sm-3">
+                                    <h5 class="text-center"><a href="http://bjc.psu.edu/events-list" target="_blank"><i class="fa fa-ticket" aria-hidden="true"></i> BJC演出安排及售票</a></h5>
+                                </div>
+                                <div class="about col-sm-3">
+                                    <h5 class="text-center"><a href="http://studentaffairs.psu.edu/hub/hrcenter.shtml" target="_blank"><i class="fa fa-bullhorn" aria-hidden="true"></i> HUB资源信息</a></h5>
+                                </div>
+                                <div class="about col-sm-3">
+                                    <h5 class="text-center"><a href="https://global.psu.edu/info/internationals-psu/students" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> 国际学生事务处DISSA</a></h5>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <div class="empty"></div>
+
+                <section id="story">
+                    <div class="wrap-about">
+
+                        <div class="container">
+                            <h3 class="text-center">Stories<br />我们的故事</h3>
+                            <div>
+                                <div class="col-sm-12">
+                                    <ul class="tmtimeline col-sm-12">
+                                        <li>
+                                            <div class="tmtime"><span>2018</span></div>
+                                            <div class="tmicon"><i class="fa fa-linkedin"></i></div>
+                                            <div class="tmlabel">
+                                                <h4>CSSA 17周岁啦！新起点！</h4>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tmtime"><span>2017</span></div>
+                                            <div class="tmicon"><i class="fa fa-linkedin"></i></div>
+                                            <div class="tmlabel">
+                                                <h4>CSSA 16周岁啦！新起点！</h4>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tmtime"><span>2016</span></div>
+                                            <div class="tmicon"><i class="fa fa-linkedin"></i></div>
+                                            <div class="tmlabel">
+                                                <h4>CSSA 获得PSU杰出学生组织称号</h4>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tmtime"><span>2004</span></div>
+                                            <div class="tmicon"><i class="fa fa-linkedin"></i></div>
+                                            <div class="tmlabel">
+                                                <h4>PSU－CSSA成为中华人民共和国驻纽约总领事馆认证学生组织</h4>
+                                                <p>CSSA成为StateCollege地区最大的华人社团组织。</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tmtime"><span>2002</span></div>
+                                            <div class="tmicon"><i class="fa fa-linkedin"></i></div>
+                                            <div class="tmlabel">
+                                                <h4>CSSA BBS上线</h4>
+                                                <p><a href="https://bbs.psucssa.com" target="_blank">CSSA BBS</a> 开始启用服务，至今运营良好，为StateCollege地区华人提供便捷的信息服务。</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tmtime"><span>2001</span></div>
+                                            <div class="tmicon"><i class="fa fa-linkedin"></i></div>
+                                            <div class="tmlabel">
+                                                <h4>PSU－CSSA成立</h4>
+                                                <p>2001年秋，CSSA在PSU正式注册成为合法学生组织。</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <div class="empty"></div>
+
+                <section id="contact">
+                    <div class="container">
+                        <h3 class="text-center">Contact<br />联系我们</h3>
+                        <div>
+
+                            <!-- Social Links -->
+                            <div class="col-xs-12">
+                                <ul id="social-links">
+                                    <li><a class="tool" data-placement="top" href="https://www.facebook.com/CSSAPSU/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                    <!--                  <li><a class="tool" data-placement="top" href="#" title="Google+"><i class="fa fa-google-plus"></i></a></li>-->
+                                    <li><a class="tool" data-placement="top" href="http://weibo.com/pennstate?refer_flag=1001030103_" target="_blank" title="Weibo"><i class="fa fa-weibo"></i></a></li>
+                                    <!--                  <li><a class="tool" data-placement="top" href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>    -->
+                                    <li><a class="tool" data-placement="top" href="https://www.youtube.com/channel/UCDX2V5dbaVHDtFXuvrrCUBw" target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a></li>
+                                    <!--                  <li><a class="tool" data-placement="top" href="#" title="Vimeo"><i class="fa fa-vimeo-square"></i></a></li>-->
+                                    <!--                  <li><a class="tool" data-placement="top" href="#" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>-->
+                                    <li><a class="tool" data-placement="top" href="https://www.instagram.com/pennstatecssa/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                                    <!--                  <li><a class="tool" data-placement="top" href="#" title="Flickr"><i class="fa fa-flickr"></i></a></li>-->
+                                    <!--                  <li><a class="tool" data-placement="top" href="#" title="Github"><i class="fa fa-github-alt"></i></a></li>-->
+                                    <!--                  <li><a class="tool" data-placement="top" href="#" title="Twitter"><i class="fa fa-dribbble"></i></a></li>-->
+                                    <!--                  <li><a class="tool" data-placement="top" href="#" title="RSS"><i class="fa fa-rss"></i></a></li>-->
+                                    <li><a class="tool" data-placement="top" href="mailto:cssacomm@gmail.com" title="E-Mail"><i class="fa fa-envelope-o"></i></a></li>
+                                    <li><a class="tool" data-placement="top" href="#contact" title="Wechat: pennstatecssa"><i class="fa fa-wechat"></i></a></li>
+
+                                </ul>
+                            </div>
+
+                            <!-- Brand & Copyright -->
+                            <div id="brand-and-copy" class="col-xs-12">
+                                <p id="brand" class="logo"><span>C</span>SSA</p>
+                                <p>© 2019 CSSA. All rights reserved.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+</html>

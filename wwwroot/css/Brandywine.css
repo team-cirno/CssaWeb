@@ -1,0 +1,14 @@
+.body {
+    display: block;
+    position: static;
+    background: #222222;
+        background: #222222;
+    color: #222222;
+}
+
+.Sec {
+    margin: 0px 5%;
+    border: 20px;
+    background-color: #f9f9e8;
+    padding: 10% 8%;
+}

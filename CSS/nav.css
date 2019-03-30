@@ -26,7 +26,7 @@
     height: 100%;
 }
 
-.logo:hover{
+.logo:hover {
     background-color: #000000;
 }
 
@@ -43,17 +43,17 @@
 }
 
 .nav_tab {
-    height: 26px;
+    height: 24px;
     width: 140px;
     padding: 15px 30px 15px 30px;
     min-height: 16px;
     display: block;
     transition: 0.3s;
-    color: #efefef
+    color: #efefef;
 }
 
 .nav_tab:hover {
-    height: 26px;
+    height: 24px;
     width: 160px;
     padding: 15px 00px 15px 40px;
     left: 20px;
@@ -61,4 +61,18 @@
     display: block;
     background-color: #000000;
     color: #ffffff;
+}
+
+.nav_tab_wap {
+    border-top: 100px !important;
+    border-color: cyan !important;
+}
+
+.sep {
+    height: 2px;
+    width: 200px;
+    display: block;
+    transition: 0.3s;
+    color: #000000;
+    background-color: #050505
 }

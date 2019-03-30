@@ -10,7 +10,7 @@ header {
 
 .navbar-nav a {
     display: table;
-    float:none;
+    float: none;
 }
 
 ul {
@@ -22,7 +22,7 @@ ul {
 
 
 .navbar li {
-    float:left;
+    float: left;
 }
 
 .tag a {
@@ -39,13 +39,13 @@ ul {
 
 
 .navbar {
-    margin:  0% 10%;
+    margin: 0% 10%;
     width: 80%;
     overflow: hidden;
 }
 
-.nav{
-    display:inline;
+.nav {
+    display: inline;
 }
 
 .Title {
@@ -59,4 +59,9 @@ ul {
 .title-logo {
     width: 70px;
     height: 70px;
+}
+
+.nav_tab_wap {
+    border-top: 5px;
+    border-color: cyan;
 }

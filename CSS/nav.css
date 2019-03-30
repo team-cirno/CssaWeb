@@ -76,3 +76,28 @@
     color: #000000;
     background-color: #050505
 }
+
+.social {
+    height: 24px;
+    width: 200px;
+}
+
+.iconset {
+    height: 10px;
+    width: 10px;
+}
+
+.fa {
+    padding: 7px;
+    font-size: 18px !important;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}

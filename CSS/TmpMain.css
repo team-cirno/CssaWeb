@@ -8,13 +8,19 @@
 
 #top-tab {
     padding: 0px;
-    position: absolute;
+    position: fixed;
+
     background-color: #2C2B2B;
     opacity: 0.8;
     right: 0px;
     left: 200px;
-    height: 200px;
+    height: 100px;
     color: #ffffff;
+    z-index: 100;
+}
+
+#toptitle {
+    padding: 10px;
 }
 
 .container {
@@ -172,7 +178,7 @@ li .about col-sm-4 {
     display: block;
     position: static;
     overflow: auto;
-    
+
 }
 
 .news_unit {
@@ -198,7 +204,7 @@ li .about col-sm-4 {
     margin: auto;
     height: 100%;
     width: 100%;
-    transition:0.3s 
+    transition: 0.3s
 }
 
 .news_BG_C {
@@ -223,11 +229,11 @@ li .about col-sm-4 {
 .unit_C {
     height: 264px;
     width: 220px;
-    float:left;
+    float: left;
     margin: 30px 10px;
 }
 
-.pdf_viewer{
+.pdf_viewer {
     z-index: 100;
-    
+
 }

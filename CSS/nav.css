@@ -1,107 +1,115 @@
 #nav_C {
-    background-attachment: scroll;
-    background-color: rgb(34, 34, 34);
+  background-attachment: scroll;
+  background-color: rgb(34, 34, 34);
 
-    color: rgb(204, 204, 204);
+  color: rgb(204, 204, 204);
 
-    /* Box */
-    height: 100%;
-    width: 200px;
+  /* Box */
+  height: 100%;
+  width: 200px;
 
-    /* Positioning */
-    position: fixed;
-    top: 0px;
-    bottom: 0px;
-    right: 1056px;
-    left: 0px;
-    float: none;
-    display: block;
-    z-index: 1000;
+  /* Positioning */
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 1056px;
+  left: 0px;
+  float: none;
+  display: block;
+  z-index: 1000;
 }
 
 .logo {
-    color: #FFFFFF;
-    outline-style: none;
-    width: 200px;
-    height: 100%;
+  color: #FFFFFF;
+  outline-style: none;
+  width: 200px;
+  height: 100%;
+}
+
+#logo-warp {
+  transition: 0.3s;
+}
+
+#logo-warp:hover {
+  opacity: 0.7;
 }
 
 .logo:hover {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .nav_logo {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 
 }
 
 .nav_bar {
-    list-style: none;
-    color: aliceblue;
-    padding-top: 20px;
+  list-style: none;
+  color: aliceblue;
+  padding-top: 20px;
 }
 
 .nav_tab {
-    height: 24px;
-    width: 140px;
-    padding: 15px 30px 15px 30px;
-    min-height: 16px;
-    display: block;
-    transition: 0.3s;
-    color: #efefef;
+  height: 24px;
+  width: 140px;
+  padding: 15px 30px 15px 30px;
+  min-height: 16px;
+  display: block;
+  transition: 0.3s;
+  color: #efefef;
 }
 
 .nav_tab:hover {
-    height: 24px;
-    width: 160px;
-    padding: 15px 00px 15px 40px;
-    left: 20px;
-    min-height: 16px;
-    display: block;
-    background-color: #000000;
-    color: #ffffff;
+  height: 24px;
+  width: 160px;
+  padding: 15px 00px 15px 40px;
+  left: 20px;
+  min-height: 16px;
+  display: block;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .nav_tab_wap {
-    border-top: 100px !important;
-    border-color: cyan !important;
+  border-top: 100px !important;
+  border-color: cyan !important;
 }
 
 
 .sep {
-    height: 2px;
-    width: 200px;
-    display: block;
-    transition: 0.3s;
-    color: #000000;
-    background-color: #050505
+  height: 2px;
+  width: 200px;
+  display: block;
+  transition: 0.3s;
+  color: #000000;
+  background-color: #050505
 }
 
 .social {
-    height: 24px;
-    width: 200px;
+  height: 24px;
+  width: 200px;
 }
 
 .iconset {
-    height: 10px;
-    width: 10px;
+  height: 10px;
+  width: 10px;
 }
 
 .fa {
-    padding: 7px;
-    font-size: 18px !important;
-    width: 18px;
-    height: 18px;
-    text-align: center;
-    text-decoration: none;
-    float: left;
+  padding: 7px;
+  font-size: 18px !important;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .col-xs-12 {
-    margin-top: 10px;
+  margin-top: 10px;
 }

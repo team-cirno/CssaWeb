@@ -1,0 +1,359 @@
+/*-------------------------------------------------------------------------
+
+  Template Name: Ambixo
+  Author: Martina Sepi 
+  Author URL: http://www.martinasepi.it
+  License: GNU GENERAL PUBLIC LICENSE
+  
+-------------------------------------------------------------------------*/
+
+/* Protfolio */
+
+.og-grid {
+  list-style: none;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.og-grid li {
+  display: inline-block;
+  margin: 10px 5px 0 5px;
+  vertical-align: top;
+  height: 250px;
+}
+
+.og-grid li > a,
+.og-grid li > a img {
+  border: none;
+  outline: none;
+  display: block;
+  position: relative;
+}
+
+.og-grid li.og-expanded > a::after {
+  top: auto;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #fdfbfc;
+  border-width: 15px;
+  left: 50%;
+  margin: -20px 0 0 -15px;
+}
+
+.og-expander {
+  position: absolute;
+  background: #fdfbfc;
+  top: auto;
+  left: 0;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  height: 0;
+  overflow: hidden;
+}
+
+.og-expander-inner {
+  padding: 50px 30px;
+  height: 100%;
+}
+
+.og-close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.og-close::before,
+.og-close::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  height: 4px;
+  background: #3E383A;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.og-close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.og-close:hover::before,
+.og-close:hover::after {
+  background: #322E2F;
+}
+
+.og-fullimg,
+.og-details {
+  width: 50%;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.og-details {
+  padding: 0 40px 0 20px;
+}
+
+.og-fullimg {
+  text-align: center;
+}
+
+.og-fullimg img {
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.og-details h3 {
+  font-weight: 300;
+  font-size: 3em;
+  padding: 40px 0 10px;
+  margin-bottom: 10px;
+  color: #3b3d41;
+}
+
+.og-details p {
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 1.7;
+  color: #3b3d41;
+}
+
+.og-details a {
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 1em 0 0;
+  outline: none;
+  background: #d56158;
+  border-radius: 6px;
+}
+
+.og-details a:hover {
+  background: #C64338;
+}
+
+.og-loading {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #d7d7d0;
+  box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  -webkit-animation: loader 0.5s infinite ease-in-out both;
+  -moz-animation: loader 0.5s infinite ease-in-out both;
+  animation: loader 0.5s infinite ease-in-out both;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    background: #d7d7d0;
+  }
+
+  33% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #d7d7d0;
+  }
+
+  66% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #d7d7d0, -15px 30px 1px #ccc;
+  }
+}
+
+@-moz-keyframes loader {
+  0% {
+    background: #d7d7d0;
+  }
+
+  33% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #d7d7d0;
+  }
+
+  66% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #d7d7d0, -15px 30px 1px #ccc;
+  }
+}
+
+@keyframes loader {
+  0% {
+    background: #d7d7d0;
+  }
+
+  33% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #d7d7d0;
+  }
+
+  66% {
+    background: #ccc;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #d7d7d0, -15px 30px 1px #ccc;
+  }
+}
+
+
+/* Education */
+
+.tmtimeline {
+  margin: 30px 0 0 0;
+  list-style: none;
+  position: relative;
+}
+
+.tmtimeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 8px;
+  background: #E4E6DE;
+  left: 20.9%;
+  margin-left: -10px;
+}
+
+.tmtimeline > li {
+  position: relative;
+}
+
+.tmtimeline > li .tmtime {
+  display: block;
+  width: 25%;
+  padding-right: 100px;
+  position: absolute;
+}
+
+.tmtimeline > li .tmtime span {
+  display: block;
+  text-align: right;
+  font-size: 1.8em;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.tmtimeline > li .tmlabel {
+  margin: 0 0 15px 25%;
+  color: #fff;
+  padding: 2em;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.4;
+  position: relative;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.tmtimeline > li .tmlabel h4 {
+  margin-top: 0px;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #3E383A;
+  font-size: 1.8em;
+}
+
+.tmtimeline > li .tmlabel p {
+  color: #3E383A;
+  font-size: 1.2em;
+}
+
+.tmtimeline > li .tmlabel:after {
+  right: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-width: 10px;
+  top: 10px;
+  border-right-color: rgba(255, 255, 255, 0.9);
+}
+
+.tmtimeline > li .tmicon {
+  width: 40px;
+  height: 40px;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 1.5em;
+  line-height: 40px;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  color: #fff;
+  background: #D56157;
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px #E4E6DE;
+  text-align: center;
+  left: 20%;
+  top: 0;
+  margin: 0 0 0 -25px;
+}
+
+@media screen and (max-width: 65.375em) {
+
+  .tmtimeline > li .tmtime span {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 47.2em) {
+  .tmtimeline:before {
+    display: none;
+  }
+
+  .tmtimeline > li .tmtime {
+    width: 100%;
+    position: relative;
+    padding: 0 0 20px 0;
+  }
+
+  .tmtimeline > li .tmtime span {
+    text-align: left;
+  }
+
+  .tmtimeline > li .tmlabel {
+    margin: 0 0 30px 0;
+    padding: 1em;
+    font-weight: 400;
+    font-size: 95%;
+  }
+
+  .tmtimeline > li .tmlabel:after {
+    right: auto;
+    left: 20px;
+    border-right-color: transparent;
+    top: -20px;
+    border-bottom-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .tmtimeline > li .tmicon {
+    position: relative;
+    float: right;
+    left: auto;
+    margin: -55px 5px 0 0px;
+  }
+}

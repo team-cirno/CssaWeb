@@ -95,6 +95,10 @@ section {
   padding: 20px 60px;
 }
 
+#Stories {
+  background: rgba(68, 68, 68, 0.85);
+}
+
 .wrap-about {
   margin-top: 20px;
   margin-bottom: 20px;

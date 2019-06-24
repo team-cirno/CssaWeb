@@ -1,49 +1,48 @@
 body {
-    background-color: #f3f8f1;
-    background: url('/Reds/Image/Pattern/bg_dot.png');
-    background-repeat: repeat;
+  background-color: #f3f8f1;
+  background: url('/Reds/Image/Pattern/bg_dot.png');
+  background-repeat: repeat;
 }
 
 a {
-    color: inherit;
-    font-style: none;
-    text-decoration: none;
+  color: inherit;
+  font-style: none;
+  text-decoration: none;
 }
 
 #splashscreen {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    z-index: 10
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 10
 }
 
 .enter_link {
-    height: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  height: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 #OutLine {
-    position: relative;
-    width: 80%;
-    height: 100%;
-    left: 10%;
-    right: 10%;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  left: 10%;
+  right: 10%;
 }
 
-.Sec{
-    margin: 30px;
-    border: 20px;
-    background-color: #f9f9f9;
-    padding: 20px
+.Sec {
+  margin: 30px;
+  border: 20px;
+  background-color: #f9f9f9;
+  padding: 20px
 }
 
-.Main{
-    position: static;
+.Main {
+  position: static;
 }
-

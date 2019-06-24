@@ -96,7 +96,7 @@ section {
 }
 
 #Stories {
-  background: rgba(68, 68, 68, 0.85);
+  background: rgba(68, 68, 68, 0.85) !important;
 }
 
 .wrap-about {

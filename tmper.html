@@ -64,7 +64,14 @@
         overflow: "auto"
       });
     });
-    $('#splashscreen').fadeIn().delay(8000).fadeOut(500);
+    $('.enter_link').delay(8000).fadeOut(500);
+
+    var myVar = setInterval(myTimer, 8000);
+
+    function myTimer() {
+      $('.enter_link').fadeOut(500);
+      $('#splashscreen').fadeOut(500);
+    }
   </script>
   <!--#backgrount script -->
 

@@ -1,6 +1,8 @@
 #nav_C {
   background-attachment: scroll;
-  background-color: rgb(34, 34, 34);
+  background-color: #1B1B1B;
+
+  opacity: 0.97;
 
   color: rgb(204, 204, 204);
 
@@ -17,6 +19,11 @@
   float: none;
   display: block;
   z-index: 1000;
+}
+
+#nav_C:hover {
+  transition: 0.3s;
+  opacity: 1;
 }
 
 .logo {
